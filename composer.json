@@ -1,0 +1,14 @@
+{
+    "name": "ubuntu/5.1-composer---autoload",
+    "authors": [
+        {
+            "name": "Mikail Ozdemir",
+            "email": "professional.mikailozdemir@gmail.com"
+        }
+    ],
+    "require": {
+        "autoload": {
+            "psr-4": {"App\Wcs\": "src/Wcs/"}
+
+        }
+}
